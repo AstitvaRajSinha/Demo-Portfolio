@@ -9,9 +9,11 @@
 </head>
 
 <body class=" bg-black text-white">
-    <section class="w-full h-screen "
-        style="background-image: url('assets/bg3.jpeg') ; background-position: center; background-size: cover; background-repeat: no-repeat;">
-        <nav class="flex w-[90%] mx-auto py-8 justify-around">
+    <section class="w-full h-screen bg-[center_bottom_1rem]
+    md:bg-center"
+        style="background-image: url('assets/bg3.jpeg'); background-size: cover; background-repeat: no-repeat;">
+        <nav class="flex w-[90%] flex-wrap
+         mx-auto py-8 justify-around">
             <div class="w-[40%] flex ">
                 <h1 class="text-3xl font-bold ">ASTITVA <span class="text-5xl text-red-500">.</span> </h1>
             </div>
@@ -23,8 +25,9 @@
                 <li class="">Contact</li>
             </ul>
         </nav>
-        <div class="w-[50%] h-[70vh] gap-2 ml-28 flex flex-col justify-center ">
-            <h1 class="text-6xl font-bold ">I'm Astitva Raj Sinha<span class="text-5xl text-red-500">.</span></h1>
+        <div class="w-[50%] h-[70vh] gap-2 ml-10 md:ml-28 flex flex-col justify-center ">
+            <h1 class="text-3xl md:text-6xl font-bold ">I'm Astitva Raj Sinha<span
+                    class="text-5xl text-red-500">.</span></h1>
             <p class="text-xl mb-5">CPO @<span> <a href="https://www.thexitingway.com/">The Xiting Way</a> </span> </p>
             <div class="flex  gap-5">
                 <input class="p-3 placeholder:text-white rounded-lg  bg-red-500 inline outline-none" type="text"
@@ -33,16 +36,16 @@
             </div>
         </div>
     </section>
-    <section class="max-w-[1320px] my-10 mx-auto px-5 flex gap-40">
-        
-        <div class=" w-1/2 
-        h-[500px]"
+    <section class="max-w-[1320px] my-10 mx-auto px-5 flex flex-wrap md:flex-nowrap gap-40">
+
+        <div class="w-full md:w-1/2 
+        h-[500px] "
             style="background-image: url('assets/about.jpg') ; background-position: center ; background-size: contain; background-repeat: no-repeat;">
         </div>
-        
-        <div class="w-[60%] flex flex-col  gap-2 ">
-            <h1 class="w-[70%] text-6xl inline font-bold hover:border-b-2 duration-100 pb-3 mb-5">About Me<span
-                    class="text-6xl text-red-500">.</span> </h1>
+
+        <div class="w-full md:w-[60%] flex flex-col text-center gap-2 ">
+            <h1 class="w-full text-5xl md:w-[70%] md:text-6xl inline font-bold hover:border-b-2 duration-100 pb-3 mb-5">
+                About Me<span class="text-6xl text-red-500">.</span> </h1>
             <h2 class="text-2xl font-bold">Hey!</h2>
             <p class=" tracking-wide  leading-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias,
                 consequatur veritatis, incidunt in nisi vero aut mollitia fugit ea quos quod sint quas dolores adipisci,
@@ -59,16 +62,17 @@
         </div>
     </section>
     <section class="max-w-[1320px] mt-56 mx-auto">
-        <div class="flex justify-between px-12">
-            <div class="w-[40%] text-6xl font-bold leading-12">
-                <p>Take A Look At My Past Experience<span class="text-6xl text-red-500">.</span></p>
+        <div class="flex flex-wrap md:flex-nowrap justify-between px-12">
+            <div class="w-full md:w-[40%] text-4xl md:text-6xl font-bold leading-12">
+                <p class="text-center md:text-start">Take A Look At My Past Experience<span
+                        class="text-6xl text-red-500">.</span></p>
             </div>
-            <div class="flex justify-center items-center">
-                <button class="p-3  bg-red-500 rounded-lg">Know More</button>
+            <div class="flex w-full justify-center md:justify-end items-center">
+                <button class="mt-3 p-3 text-center bg-red-500 rounded-lg">Know More</button>
             </div>
         </div>
-        <div class="flex w-full mx-auto px-12 py-28 justify-between">
-            <div class="flex w-[60%] gap-3 h-auto">
+        <div class="flex flex-wrap md:flex-nowrap w-full mx-auto px-12 py-28 justify-between">
+            <div class="flex w-full text-center md:w-[60%] gap-3 h-auto">
                 <div class="w-[30px] h-[30px]"
                     style="background-image: url('assets/icon.png') ; background-position: center ; background-size: contain; background-repeat: no-repeat;">
                 </div>
@@ -95,7 +99,7 @@
 
                 </div>
             </div>
-            <div class="flex w-[60%] justify-end gap-3 h-auto">
+            <div class="flex w-full text-center md:w-[60%] justify-start md:justify-end gap-3 h-auto">
                 <div class="w-[30px] h-[30px]"
                     style="background-image: url('assets/icon.png') ; background-position: center ; background-size: contain; background-repeat: no-repeat;">
                 </div>
@@ -128,12 +132,13 @@
         </div>
     </section>
     <section class="max-w-[1320px] mt-12 mx-auto">
-        <div class="flex justify-between px-12">
-            <div class="w-1/2">
-                <h1 class="text-6xl font-bold ">My Services<span class="text-6xl text-red-500">.</span></h1>
+        <div class="grid
+         grid-cols-1 md:grid-cols-2 justify-between px-12">
+            <div class="w-full">
+                <h1 class="text-5xl md:text-6xl font-bold ">My Services<span class="text-6xl text-red-500">.</span></h1>
                 <button class="p-3 my-5 w-40 border border-red-500 rounded-lg">Know More</button>
             </div>
-            <div class="w-1/2 flex flex-col gap-12
+            <div class="w-full flex flex-col gap-12
             ">
                 <div class="flex gap-1 p-5 ">
                     <div class="w-[30px] h-[30px]"
@@ -186,26 +191,32 @@
 
     </section>
     <section class="max-w-[1320px] mt-12 mx-auto">
-        
-        <h1 class="text-6xl font-bold text-center mt-24">Get in touch<span class="text-6xl text-red-500">.</span></h1>
+
+        <h1 class="text-5xl md:text-6xl font-bold text-center mt-24">Get in touch<span
+                class="text-6xl text-red-500">.</span></h1>
         <p class="p-5 text-center font-light">Get in touch me for further details or any query about me</p>
-        <form action="" class="max-w-[800px] mx-auto">
-            <div class="flex justify-between py-5">
-                <input class="py-5 w-80 bg-transparent border-b-2 outline-none" type="text" placeholder="Full Name">
+        <form action="" class="max-w-[800px] mx-auto px-5">
+            <div class="flex  flex-wrap justify-center md:flex-nowrap md:justify-between py-5">
+                <input class="py-5  w-80 bg-transparent border-b-2 outline-none" type="text" placeholder="Full Name">
                 <input class="py-5 w-80 bg-transparent border-b-2 outline-none" type="email" placeholder="Email">
             </div>
-            <div class="flex justify-between py-5">
-                <input class="py-5 w-80 bg-transparent border-b-2 outline-none" type="number" placeholder="Phone Number">
+            <div class="flex  flex-wrap justify-center md:flex-nowrap md:justify-between py-5">
+                <input class="py-5 w-80 bg-transparent border-b-2 outline-none" type="number"
+                    placeholder="Phone Number">
                 <input class="py-5 w-80 bg-transparent border-b-2 outline-none" type="text" placeholder="Subject">
             </div>
-            <div class="flex justify-between py-5">
-                  <textarea class="w-full bg-transparent border-b-2 outline-none " name="" id=""  rows="5" placeholder="Message"></textarea>
+            <div class="flex flex-wrap justify-center md:flex-nowrap md:justify-between py-5">
+                <textarea class="w-2/3 md:w-full bg-transparent border-b-2 outline-none " name="" id="" rows="5"
+                    placeholder="Message"></textarea>
+            </div>
+            <div class="flex  flex-wrap justify-center md:flex-nowrap md:justify-between py-5">
+                <button class="p-5 my-5 w-56  bg-red-500 rounded-lg">Send Message</button>
             </div>
 
-            <button class="p-5 my-5 w-56  bg-red-500 rounded-lg">Send Message</button>
-          
+
+
         </form>
-        
+
     </section>
     <footer class="bg-[#232323] flex flex-col justify-center items-center w-full h-[30vh]">
         <div>
@@ -214,8 +225,8 @@
             <a href="">twitter</a>
             <a href="">linkdin</a>
         </div>
-       <h1>Made With ❤️ by Astitva </h1>
-        </footer>
+        <h1>Made With ❤️ by Astitva </h1>
+    </footer>
 </body>
 
 </html>
