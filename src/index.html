@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="navbar.css">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 
 <body class=" bg-black text-white">
-    <section class="w-full h-screen bg-[center_bottom_1rem]
+    <section class="w-full h-screen
     md:bg-center"
         style="background-image: url('assets/bg3.jpeg'); background-size: cover; background-repeat: no-repeat;">
         <nav class="navbar">
-            <div class="navbar-container container">
+            <div class="navbar-container black container">
                 <input type="checkbox" name="" id="">
                 <div class="hamburger-lines">
                     <span class="line line1"></span>
@@ -31,6 +33,7 @@
                 <h1 class="logo">ASTITVA <span class="text-5xl text-red-500">.</span></h1>
             </div>
         </nav>
+       
         <div class="w-[50%]  h-[80vh] gap-2 ml-10 md:ml-28 flex  flex-col justify-center ">
             <h1 class="text-3xl md:text-6xl font-bold ">I'm Astitva Raj Sinha<span
                     class="text-5xl text-red-500">.</span></h1>
@@ -46,11 +49,11 @@
 
         <div class="w-full md:w-1/2 
         h-[500px] "
-            style="background-image: url('assets/about.jpg') ; background-position: center ; background-size: contain; background-repeat: no-repeat;">
+            style="background-image: url('assets/about.jpg') ; background-position: center ; background-size: contain; background-repeat: no-repeat;box-shadow: 30px 30px 1px 1px rgba(10,10,10,1);">
         </div>
 
-        <div class="w-full md:w-[60%] flex flex-col text-center gap-2 ">
-            <h1 class="w-full text-5xl md:w-[70%] md:text-6xl inline font-bold hover:border-b-2 duration-100 pb-3 mb-5">
+        <div class="w-full md:w-[60%] flex flex-col   gap-2 ">
+            <h1 class=" text-5xl md:w-[70%] md:text-6xl max-w-max font-bold hover:border-b-2 duration-100 pb-3 mb-5">
                 About Me<span class="text-6xl text-red-500">.</span> </h1>
             <h2 class="text-2xl font-bold">Hey!</h2>
             <p class=" tracking-wide  leading-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias,
@@ -67,7 +70,7 @@
                 Provident!</p>
         </div>
     </section>
-    <section id="experience" class="max-w-[1320px] mt-56 mx-auto">
+    <section id="experience" class="max-w-[1320px] mt-56 mx-auto"     >
         <div class="flex flex-wrap md:flex-nowrap justify-between px-12">
             <div class="w-full md:w-[40%] text-4xl md:text-6xl font-bold leading-12">
                 <p class="text-center md:text-start">Take A Look At My Past Experience<span
@@ -77,8 +80,8 @@
                 <button class="mt-3 p-3 text-center bg-red-500 rounded-lg">Know More</button>
             </div>
         </div>
-        <div class="flex flex-wrap md:flex-nowrap w-full mx-auto px-12 py-28 justify-between">
-            <div class="flex w-full text-center md:w-[60%] gap-3 h-auto">
+        <div class="flex flex-wrap md:flex-nowrap mb-10 w-full mx-auto px-12 py-28 justify-between">
+            <div class="flex w-full  md:w-[60%] gap-3 h-auto">
                 <div class="w-[30px] h-[30px]"
                     style="background-image: url('assets/icon.png') ; background-position: center ; background-size: contain; background-repeat: no-repeat;">
                 </div>
@@ -102,7 +105,7 @@
                         natus earum ipsum excepturi.</p>
                 </div>
             </div>
-            <div class="flex w-full text-center md:w-[60%] justify-start md:justify-end gap-3 h-auto">
+            <div class="flex w-full md:w-[60%] justify-start md:justify-end gap-3 h-auto">
                 <div class="w-[30px] h-[30px]"
                     style="background-image: url('assets/icon.png') ; background-position: center ; background-size: contain; background-repeat: no-repeat;">
                 </div>
@@ -185,6 +188,29 @@
 
 
     </section>
+    <section class="max-w-[1320px] mt-56 mb-56 mx-auto">
+        <div class="flex flex-wrap md:flex-nowrap  justify-between p-12">
+            <div class="w-full md:w-[40%] text-4xl md:text-6xl font-bold leading-12">
+                <p class="text-center md:text-start">Project<span
+                        class="text-6xl text-red-500">.</span></p>
+            </div>
+            <div class="flex w-full justify-center md:justify-end items-center">
+                <button class="mt-3 p-3 text-center bg-red-500 rounded-lg">Know More</button>
+            </div>
+        </div>
+        <div class="w-full h-[20vh] flex justify-between px-12">
+            <div class="w-[30%] h-[40vh] bg-red-600"> 
+                <div style="background-image: url();"> </div>
+            </div>
+            <div class="w-[30%] h-[40vh] bg-red-600"> 
+
+            </div>
+            <div class="w-[30%] h-[40vh] bg-red-600"> 
+
+            </div>
+        </div>
+
+    </section>
     <section id="contact" class="max-w-[1320px] mt-12 mx-auto">
 
         <h1 class="text-5xl md:text-6xl font-bold text-center mt-24">Get in touch<span
@@ -223,6 +249,7 @@
         </div>
         <h1>Made With ❤️ by Astitva </h1>
     </footer>
+
 </body>
 
 </html>

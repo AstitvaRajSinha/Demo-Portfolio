@@ -12,7 +12,7 @@
 .navbar{
     position: fixed;
     width: 100%;
-    background: transparent;
+    background: grey;
     color: white;
     opacity: 0.85;
     z-index: 100;
