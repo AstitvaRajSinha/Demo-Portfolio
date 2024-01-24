@@ -1,2 +1,2 @@
 "# Demo-Portfolio" 
-A Demo Portfolio site using html and TailwindCss 
+A Demo Portfolio site using html and TailwindCss and JS
