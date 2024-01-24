@@ -13,64 +13,86 @@
 
 <body class=" bg-black text-white">
     <section class="w-full h-screen
-    md:bg-center"
+    md:bg-center "
         style="background-image: url('assets/bg3.jpeg'); background-size: cover; background-repeat: no-repeat;">
-        <nav class="navbar">
-            <div class="navbar-container black container">
-                <input type="checkbox" name="" id="">
-                <div class="hamburger-lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
-                </div>
-                <ul class="menu-items">
-                    <li><a href="#home">Home</a></li>
-                    <li ><a href="#about">About</a> </li>
-                    <li ><a href="#experience">Experinces</a> </li>
-                    <li ><a href="#services">Services</a> </li>
-                    <li ><a href="#contact">Contact</a> </li>
-                </ul>
-                <h1 class="logo">ASTITVA <span class="text-5xl text-red-500">.</span></h1>
+        <nav class="fixed justify-around px-8 flex py-5 bg-zinc-700 font-semibold w-full">
+
+            <div>
+                <h1 class="flex items-center text-4xl">ASTITVA <span class="text-5xl text-red-500">.</span></h1>
             </div>
+            <ul class=" hidden md:flex gap-20 items-center">
+
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                            <path
+                                d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z">
+                            </path>
+                            <circle cx="11.994" cy="11.979" r="3.003"></circle>
+                        </svg></a> </li>
+                <li> <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                            </path>
+                        </svg> </a>
+                </li>
+                <li> <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                            <path
+                                d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z">
+                            </path>
+                        </svg></a>
+
+                </li>
+                <li> <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                            <path
+                                d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z">
+                            </path>
+                        </svg></a>
+
+                </li>
+            </ul>
         </nav>
-       
-        <div class="w-[50%]  h-[80vh] gap-2 ml-10 md:ml-28 flex  flex-col justify-center ">
-            <h1 class="text-3xl md:text-6xl font-bold ">I'm Astitva Raj Sinha<span
-                    class="text-5xl text-red-500">.</span></h1>
-            <p class="text-xl mb-5">CPO @<span> <a href="https://www.thexitingway.com/">The Xiting Way</a> </span> </p>
-            <div class="flex  gap-5">
-                <input class="p-3 placeholder:text-white rounded-lg  bg-red-500 inline outline-none" type="text"
-                    placeholder="Email">
-                <button class="p-3 border border-red-500 rounded-lg">Know More</button>
+        
+            <div class="w-[50%]  h-[80vh] gap-2 ml-10 md:ml-28 flex  flex-col justify-center ">
+                <h1 class="text-3xl md:text-6xl  font-bold ">I'm Astitva Raj Sinha<span
+                        class="text-5xl text-red-500">.</span></h1>
+                <p class="text-xl mb-5">CPO @<span> <a href="https://www.thexitingway.com/">The Xiting Way</a> </span>
+                </p>
+                <div class="flex  gap-5">
+                    <input class="p-3 placeholder:text-white rounded-lg  bg-red-500 inline outline-none" type="text"
+                        placeholder="Email">
+                    <button class="p-3 border border-red-500 rounded-lg">Know More</button>
+                </div>
             </div>
-        </div>
+            <div>
+                
+            </div>
+
+        
+
     </section>
     <section id="about" class="max-w-[1320px] my-10 mx-auto px-5 flex flex-wrap md:flex-nowrap gap-40">
 
         <div class="w-full md:w-1/2 
-        h-[500px] "
-            style="background-image: url('assets/about.jpg') ; background-position: center ; background-size: contain; background-repeat: no-repeat;box-shadow: 30px 30px 1px 1px rgba(10,10,10,1);">
+        h-[500px] rounded-3xl md:rounded-full "
+            style="background-image: url('assets/about.jpg') ; background-position: center ; background-size: contain; background-repeat: no-repeat;">
         </div>
 
         <div class="w-full md:w-[60%] flex flex-col   gap-2 ">
             <h1 class=" text-5xl md:w-[70%] md:text-6xl max-w-max font-bold hover:border-b-2 duration-100 pb-3 mb-5">
                 About Me<span class="text-6xl text-red-500">.</span> </h1>
             <h2 class="text-2xl font-bold">Hey!</h2>
-            <p class=" tracking-wide  leading-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias,
-                consequatur veritatis, incidunt in nisi vero aut mollitia fugit ea quos quod sint quas dolores adipisci,
-                ipsum quo! Quae, natus voluptate doloribus officia cumque quia magnam sed, et, fugit repellendus
-                asperiores amet laborum sequi error nemo dolor fuga earum delectus molestiae! Vero molestiae maiores
-                earum veritatis ad fugiat eos autem et quod quasi dolorem omnis nulla amet aspernatur possimus, odio
-                pariatur eveniet? Similique corrupti laudantium natus laboriosam vel nemo accusantium obcaecati,
-                voluptatibus sequi minima autem! Atque facilis non ab eligendi nesciunt est eius fugit velit fuga quae
-                dolorum dignissimos quo, praesentium minus obcaecati at adipisci laudantium provident ad quod doloribus
-                eveniet natus quis. Repellat consequatur velit ipsam unde labore atque repudiandae non odit, eum eaque
-                beatae repellendus incidunt voluptatum ea nesciunt? Culpa sequi facere neque est, minima aperiam
-                assumenda nihil, optio nesciunt numquam veniam officia nemo laudantium inventore ipsam aliquid!
-                Provident!</p>
+            <p class=" tracking-wide  leading-6">I am a dynamic and forward-thinking Chief Technology Officer (CTO) at
+                The Xiting Way, passionate about driving technological innovation in the 21st century. With a focus on
+                user-centric design, I lead a talented team in delivering elite-quality Web and Software Services.
+                Embracing open-source principles, I believe in the power of collaboration and constant evolution.
+                Outside the tech realm, I enjoy exploring the ever-evolving landscape of technology and its positive
+                impact on the world. Let's connect, collaborate, and shape the future together!</p>
         </div>
     </section>
-    <section id="experience" class="max-w-[1320px] mt-56 mx-auto"     >
+    <section id="experience" class="max-w-[1320px] mt-56 mx-auto">
         <div class="flex flex-wrap md:flex-nowrap justify-between px-12">
             <div class="w-full md:w-[40%] text-4xl md:text-6xl font-bold leading-12">
                 <p class="text-center md:text-start">Take A Look At My Past Experience<span
@@ -97,12 +119,12 @@
                             <p>Present</p>
                         </div>
                     </div>
-                    <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recus and ae atque archi
-                        tecto ipsum
-                        magni illo voluptatum reprehenderit maiores dignissimos possimus earum iusto necessitatibus
-                        autem cum deleniti hic veniam commodi quam quia, dicta accusantium. Animi sunt dolor cum
-                        repellendus, nisi exercitationem. Dicta quidem recusandae labore placeat inventore voluptas
-                        natus earum ipsum excepturi.</p>
+                    <p class="py-5">
+                        UserI have been actively contributing as a Web Member at IEEE In this role, my responsibilities
+                        extend to the management and enhancement of the IEEE website. I've undertaken various tasks and
+                        collaborated effectively within the IEEE technical society, fostering teamwork and shared goals.
+                        This experience has not only allowed me to contribute to the technological community but has
+                        also significantly developed my skills </p>
                 </div>
             </div>
             <div class="flex w-full md:w-[60%] justify-start md:justify-end gap-3 h-auto">
@@ -121,12 +143,37 @@
                             <p>Present</p>
                         </div>
                     </div>
-                    <p class="py-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recus and ae atque archi
-                        tecto ipsum
-                        magni illo voluptatum reprehenderit maiores dignissimos possimus earum iusto necessitatibus
-                        autem cum deleniti hic veniam commodi quam quia, dicta accusantium. Animi sunt dolor cum
-                        repellendus, nisi exercitationem. Dicta quidem recusandae labore placeat inventore voluptas
-                        natus earum ipsum excepturi.</p>
+                    <p class="py-5">As The Xiting Way's CTO, I'm dedicated to propelling technology forward.
+                        Specializing in innovative solutions, our Web and Software Services ensure elite quality with a
+                        user-centric approach. We thrive on open-source collaboration, evolving our products with a
+                        vibrant community. Join us on this exciting tech journey – let's connect, collaborate, and make
+                        a positive impact together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="max-w-[1320px]  mb-24 mx-auto">
+        <div>
+            <div class="flex flex-col flex-wrap md:flex-nowrap w-full justify-between  p-12">
+                <div class="w-1/2 border-b-4 border-[#232323]">
+                    <p class=" w-full pb-5 text-4xl md:text-6xl font-bold leading-12">The Xiting Way<span
+                            class="text-6xl text-red-500">.</span></p>
+                    <p class="font-extralight text-sm text-gray-300 py-5">At The Xiting Way, we're passionate about
+                        keeping technology at the forefront of the 21st century. Our mission is to make technology the
+                        most exciting part of our lives, and we do this by creating innovative solutions that enhance
+                        youth socialization, provide cutting-edge services, and promote open-source collaboration.</p>
+                </div>
+                <div class="w-1/2  py-10">
+                    <p class=" w-full pb-5 text-2xl md:text-4xl font-medium leading-12">Revolutionizing Technology for
+                        the 21st Century</span></p>
+                    <p class="font-extralight text-sm text-gray-300 py-5">
+                        Join us on The Xiting Way as we embark on an exhilarating journey through the ever-evolving
+                        landscape of technology. Let's connect, collaborate, and make a positive impact on the world</p>
+                </div>
+                <div>
+
                 </div>
             </div>
         </div>
@@ -146,9 +193,10 @@
                     </div>
                     <div class="pb-5 border-b-4 border-[#232323]">
                         <h1 class="text-2xl font-semibold ">Web Development</h1>
-                        <p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-                            architecto distinctio aperiam minus. Nostrum iusto consequatur eum quaerat repudiandae
-                            laborum deleniti accusamus qui neque? Animi, fuga dolorum. Quibusdam, veritatis ullam!</p>
+                        <p class="font-light">
+                            I excel in web development with strong skills in HTML, CSS, JavaScript, and frameworks like
+                            React. Proficient in server-side scripting and responsive design, committed to ongoing
+                            learning and collaboration.</p>
                     </div>
                 </div>
 
@@ -157,10 +205,10 @@
                         style="background-image: url('assets/icon.png') ; background-position: center ; background-size: contain; background-repeat: no-repeat;">
                     </div>
                     <div class="pb-5 border-b-4 border-[#232323]">
-                        <h1 class="text-2xl font-semibold ">Web Development</h1>
-                        <p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-                            architecto distinctio aperiam minus. Nostrum iusto consequatur eum quaerat repudiandae
-                            laborum deleniti accusamus qui neque? Animi, fuga dolorum. Quibusdam, veritatis ullam!</p>
+                        <h1 class="text-2xl font-semibold ">Web Designing</h1>
+                        <p class="font-light">As a web designer, I specialize in creating visually appealing and
+                            user-centric interfaces. Proficient in design tools and principles, I craft engaging
+                            websites that seamlessly blend aesthetics with functionality.</p>
 
 
                     </div>
@@ -171,10 +219,11 @@
                         style="background-image: url('assets/icon.png') ; background-position: center ; background-size: contain; background-repeat: no-repeat;">
                     </div>
                     <div class="pb-5 border-b-4 border-[#232323]">
-                        <h1 class="text-2xl font-semibold ">Web Development</h1>
-                        <p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-                            architecto distinctio aperiam minus. Nostrum iusto consequatur eum quaerat repudiandae
-                            laborum deleniti accusamus qui neque? Animi, fuga dolorum. Quibusdam, veritatis ullam!</p>
+                        <h1 class="text-2xl font-semibold ">Team Managing</h1>
+                        <p class="font-light">
+                            Proficient in team management, I lead collaboratively, ensuring effective communication and
+                            coordinated efforts. My skills include task delegation, motivation, and fostering a positive
+                            team environment for successful project outcomes.</p>
 
 
                     </div>
@@ -191,23 +240,160 @@
     <section class="max-w-[1320px] mt-56 mb-56 mx-auto">
         <div class="flex flex-wrap md:flex-nowrap  justify-between p-12">
             <div class="w-full md:w-[40%] text-4xl md:text-6xl font-bold leading-12">
-                <p class="text-center md:text-start">Project<span
-                        class="text-6xl text-red-500">.</span></p>
+                <p class="text-center md:text-start">Projects<span class="text-6xl text-red-500">.</span></p>
             </div>
             <div class="flex w-full justify-center md:justify-end items-center">
                 <button class="mt-3 p-3 text-center bg-red-500 rounded-lg">Know More</button>
             </div>
         </div>
-        <div class="w-full h-[20vh] flex justify-between px-12">
-            <div class="w-[30%] h-[40vh] bg-red-600"> 
-                <div style="background-image: url();"> </div>
-            </div>
-            <div class="w-[30%] h-[40vh] bg-red-600"> 
+        <div class="grid w-[100%] gap-6 px-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+
+
+
+            <div class=" h-full flex flex-col">
+                <div class="w-full h-[40vh]">
+                    <div class="w-full h-full"
+                        style="background-image: url('assets/services.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+                    </div>
+                </div>
+
+                <div class="py-5">
+                    <h1 class="text-xl font-bold">TXW-Services</h1>
+                    <p class="font-extralight">Get your product or vision an exciting platform.</p>
+                    <div class="font-extralight text-gray-300 py-1 flex justify-between">
+                        <p class="font-normal  w-1/2">Collaborators</p>
+                        <div class="flex gap-8  text-sm font-thin">
+                            <p><a href="https://aryaninguz.me/">Aryan Inguz</a></p>
+                            <p><a href="https://ayushk.tech/">Ayush</a></p>
+                        </div>
+
+                    </div>
+                </div>
+
 
             </div>
-            <div class="w-[30%] h-[40vh] bg-red-600"> 
+            <div class=" h-full flex flex-col">
+                <div class="w-full h-[40vh]">
+                    <div class="w-full h-full"
+                        style="background-image: url('assets/oldportfolio.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+                    </div>
+                </div>
+
+                <div class="py-5">
+                    <h1 class="text-xl font-bold">Old POrtfolio</h1>
+                    <p class="font-extralight">Have a look to my old potfolio</p>
+                    <div class="font-extralight text-gray-300 py-1 flex justify-between">
+                        <p class="font-normal  w-1/2">Collaborators</p>
+                        <div class="flex gap-8  text-sm font-thin">
+                            <p>None</p>
+
+                        </div>
+
+                    </div>
+                </div>
+
 
             </div>
+
+            <div class=" h-full flex flex-col">
+                <div class="w-full h-[40vh]">
+                    <div class="w-full h-full"
+                        style="background-image: url('assets/ACM.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+                    </div>
+                </div>
+
+                <div class="py-5">
+                    <h1 class="text-xl font-bold">Real Estate</h1>
+                    <p class="font-extralight">Invest on our real Estate with our company</p>
+                    <div class="font-extralight text-gray-300 py-1 flex justify-between">
+                        <p class="font-normal  w-1/2">Collaborators</p>
+                        <div class="flex gap-8  text-sm font-thin">
+                            <p><a href="https://aryaninguz.me/">None</a></p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class=" h-full flex flex-col">
+                <div class="w-full h-[40vh]">
+                    <div class="w-full h-full"
+                        style="background-image: url('assets/services.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+                    </div>
+                </div>
+
+                <div class="py-5">
+                    <h1 class="text-xl font-bold">CampusLink</h1>
+                    <p class="font-extralight">Linking all the Campuses</p>
+                    <div class="font-extralight text-gray-300 py-1 flex justify-between">
+                        <p class="font-normal  w-1/2">Collaborators</p>
+                        <div class="flex gap-8  text-sm font-thin">
+                            <p><a href="https://ayushk.tech/">Ayush</a></p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class=" h-full flex flex-col">
+                <div class="w-full h-[40vh]">
+                    <div class="w-full h-full"
+                        style="background-image: url('assets/nasa.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+                    </div>
+                </div>
+
+                <div class="py-5">
+                    <h1 class="text-xl font-bold">NasaPace</h1>
+                    <p class="font-extralight">Get your NASA Image Of The Day</p>
+                    <div class="font-extralight text-gray-300 py-1 flex justify-between">
+                        <p class="font-normal  w-1/2">Collaborators</p>
+                        <div class="flex gap-8  text-sm font-thin">
+                            <p>None</p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class=" h-full flex flex-col">
+                <div class="w-full h-[40vh]">
+                    <div class="w-full h-full"
+                        style="background-image: url('assets/food.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+                    </div>
+                </div>
+
+                <div class="py-5">
+                    <h1 class="text-xl font-bold">Recipe Finder</h1>
+                    <p class="font-extralight">Find Recipes by giving Ingredients</p>
+                    <div class="font-extralight text-gray-300 py-1 flex justify-between">
+                        <p class="font-normal  w-1/2">Collaborators</p>
+                        <div class="flex gap-8  text-sm font-thin">
+                            <p>None</p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- <div class="w-[30%] h-[40vh] bg-red-600">
+
+            </div>
+            <div class="w-[30%] h-[40vh] bg-red-600">
+
+            </div> -->
         </div>
 
     </section>
@@ -239,15 +425,41 @@
         </form>
 
     </section>
-    <footer class="bg-[#232323] flex flex-col justify-center items-center w-full h-[30vh]">
-        <div class="flex w-[30%] justify-between items-center">
-            <a style="filter: invert(1);" href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg></a>
+    <footer class="bg-[#232323] flex flex-col justify-center items-center w-full h-[25vh]">
+        <ul class=" hidden md:flex gap-20 py-10 items-center">
 
-            <a style="filter: invert(1);" href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path></svg></a>
-            <a style="filter: invert(1);" href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325 1.42-3.592 3.5-3.592.699-.002 1.399.034 2.095.107v2.42h-1.435c-1.128 0-1.348.538-1.348 1.325v1.735h2.697l-.35 2.725h-2.348V21H20a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path></svg></a>
-            <a href=""></a>
-        </div>
-        <h1>Made With ❤️ by Astitva </h1>
+            <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                        <path
+                            d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z">
+                        </path>
+                        <circle cx="11.994" cy="11.979" r="3.003"></circle>
+                    </svg></a> </li>
+            <li> <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                        </path>
+                    </svg> </a>
+            </li>
+            <li> <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                        <path
+                            d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z">
+                        </path>
+                    </svg></a>
+
+            </li>
+            <li> <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                        <path
+                            d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z">
+                        </path>
+                    </svg></a>
+
+            </li>
+        </ul>
+        <h1 class="pb-10">Made With ❤️ by Astitva </h1>
     </footer>
 
 </body>
